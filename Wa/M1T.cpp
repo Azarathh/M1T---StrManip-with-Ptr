@@ -112,8 +112,8 @@ void DisplayChoices()
 				break;
 
 			default:
-					std::cout << "\a<Error :: Invalid input, please choose a number between 0 and 3...>\n\n";
-					continue; //restart loop
+				std::cout << "\a<Error :: Invalid input, please choose a number between 0 and 3...>\n\n";
+				continue; //restart loop
 			}
 		} while (menuChoice < 0 || menuChoice > 4);
 
